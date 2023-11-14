@@ -19,8 +19,6 @@ def Send():
     message["To"] = receiver_email
     message["Subject"] = subject
 
-
-
     # We assume that the file is in the directory where you run your Python script from
     with open(filename, "rb") as attachment:
         # The content type "application/octet-stream" means that a MIME attachment is a binary file
