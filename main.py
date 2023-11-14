@@ -17,7 +17,6 @@ path = "file.txt"
 # time to sleep between cycles
 delay = 10
 
-
 # scrapes for open availability for class 3505 and writes to file
 def scrapeSeats():
     options = Options()
@@ -80,7 +79,6 @@ def checkDifferences():
 
 def notifyMe(file):
     MailSender.Send()
-
 
 def ScheduleScrape(delay):
     checkDifferences()
